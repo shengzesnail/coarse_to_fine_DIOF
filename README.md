@@ -20,7 +20,7 @@ This program is originally implemented to perform motion-based object detection 
 
 #### However, in this project, we apply the DIOF method to extract motion field of fluid flow from partical images.
 
-<br>
+
 
 ### Usage:  Run the script main.m  
   
@@ -30,11 +30,11 @@ The images of this example are originally provided by FLUID - http://fluid.irisa
 
 And we add synthetic brightness change to the second image frame.
 
-<div align=center><img height="300" src="https://github.com/shengzesnail/coarse_to_fine_DIOF/blob/master/data/images.png"/></div>
+<div align=center><img height="300" src="https://github.com/shengzesnail/coarse_to_fine_DIOF/blob/master/data/image.png"/></div>
 
 
 #### Results - velocity field and vorticity map
 
-<div align=center><img height="300" src="https://github.com/shengzesnail/coarse_to_fine_DIOF/blob/master/data/uvs.png"/></div>
+<div align=center><img height="250" src="https://github.com/shengzesnail/coarse_to_fine_DIOF/blob/master/data/uvs.png"/></div>
 
 
