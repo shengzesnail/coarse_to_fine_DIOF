@@ -7,8 +7,9 @@ We implemented the multi-resolution optical flow which can deal with illuminatio
 
 The dynamic illumination optical flow computing aims at solving the velocity field based on the following loss function：
 
-<div align=center><img height="200" src="https://github.com/shengzesnail/coarse_to_fine_DIOF/blob/master/data/DIOFloss.png"/></div>
+<div align=center><img height="200" src="https://github.com/shengzesnail/coarse_to_fine_DIOF/blob/master/data/DIOFloss.PNG"/></div>
 
+      
 
 ### Main reference:
 
