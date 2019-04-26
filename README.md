@@ -13,12 +13,20 @@ The dynamic illumination optical flow computing aims at solving the velocity fie
 
 ### Main reference:
 
-This program is originally implemented to perform motion-based object detection and motion estimation:
-
- Cai, S., Huang, Y., Ye, B., & Xu, C. (2018). Dynamic illumination optical flow computing for sensing multiple mobile robots from a drone.  IEEE Transactions on Systems, Man, and Cybernetics: Systems, 48(8), 1370-1382. (https://doi.org/10.1109/TSMC.2017.2709404)  
+This repository is provided for research purposes only. Any commercial use requires our consent. If you use the codes in your research work, please cite the following paper: 
   
-
-#### However, in this project, we apply the DIOF method to extract motion field of fluid flow from partical images.
+      @article{cai2018dynamic,
+        title={Dynamic illumination optical flow computing for sensing multiple mobile robots from a drone},
+        author={Cai, Shengze and Huang, Yongbin and Ye, Bo and Xu, Chao},
+        journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+        volume={48},
+        number={8},
+        pages={1370--1382},
+        year={2018},
+        publisher={IEEE}
+      }
+  
+This program is originally implemented to perform motion-based object detection. **However, in this project, we apply the DIOF method to extract motion field of fluid flow from partical images**.
 
 
 
