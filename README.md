@@ -1,4 +1,4 @@
-# coarse_to_fine_DIOF
+# coarse-to-fine DIOF
 
 ### dynamic illumination optical flow computing
 
@@ -11,7 +11,7 @@ The dynamic illumination optical flow computing aims at solving the velocity fie
 
       
 
-### Main reference:
+### License and citation
 
 This repository is provided for research purposes only. Any commercial use requires our consent. If you use the codes in your research work, please cite the following paper: 
   
