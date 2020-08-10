@@ -32,8 +32,8 @@ end
 img1=double(img1);
 img2=double(img2);
 % intensity normalization (IN)
-% [img1] = itensityNorm2(img1); 
-% [img2] = itensityNorm2(img2);
+[img1] = itensityNorm(img1); 
+[img2] = itensityNorm(img2);
 % figure; imshow(img1,[]); axis image;
 % figure; imshow(img2,[]); axis image;
 
