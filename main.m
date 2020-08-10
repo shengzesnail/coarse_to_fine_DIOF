@@ -74,17 +74,13 @@ switch illuminationCase
         C = 10 * repmat(c(21:20:end),256,1);
         im2 = double(im2) + C;
         subplot(132); imshow(C,[]);
-    case 5      % gaussian function
-        C = 12 * pseudo2dM( 256, 256, 1, 64, 64, 1, 1, 0 );
-        im2 = double(im2) + C;
-        subplot(132); imshow(C,[]);
 end
 
 subplot(133);   imshow(im2,[]); title('Second frame');
 
 
 %% compute the optical flow
-lambda = 100;        % smoothing parameter for velocity field
+lambda = 1000;        % smoothing parameter for velocity field
 lam_mc = 300000000;      % smoothing parameter for M and C
 tic
 [u, v, m, c] = DIOF_Pyramids(im1,im2,lambda,lam_mc,PARA);
