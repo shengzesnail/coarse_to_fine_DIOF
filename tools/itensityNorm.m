@@ -11,7 +11,7 @@
 
 
 function [I_result] = itensityNorm(I_ori)
-ls = 5;
+ls = 2;
 I_map = 255;
 % first step: sliding minimum filter (SMF)
 I_smf = SMF(I_ori,ls);
