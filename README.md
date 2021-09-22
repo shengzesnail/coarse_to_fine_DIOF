@@ -26,7 +26,7 @@ This repository is provided for research purposes only. Any commercial use requi
         publisher={IEEE}
       }
   
-This program is originally implemented to perform motion-based object detection. **However, in this project, we apply the DIOF method to extract motion field of fluid flow from partical images**.
+This program is originally implemented to perform motion-based object detection. **However, in this project, we apply the DIOF method to extract motion field of fluid flow from particle images**.
 
 
 
